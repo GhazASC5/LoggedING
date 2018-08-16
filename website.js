@@ -141,6 +141,12 @@ function appendUser(user) {
     b4.classList.add("fa-facebook")
     a4.appendChild(b4)
     div.appendChild(a4).href="";;
+    let b5 = document.createElement("i");
+    let a5 = document.createElement("a");
+    b5.classList.add("fa")
+    b5.classList.add("fa-instagram")
+    a5.appendChild(b5)
+    div.appendChild(a5).href="";;
     //console.log(myjson.results[i].name.first)
     let people = document.getElementById("people")
     people.appendChild(div)
