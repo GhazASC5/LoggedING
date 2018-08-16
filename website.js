@@ -122,25 +122,25 @@ function appendUser(user) {
     b1.classList.add("fa")
     b1.classList.add("fa-snapchat")
     a1.appendChild(b1)
-    div.appendChild(a1);
+    div.appendChild(a1).href="";
     let b2 = document.createElement("i");
     let a2 = document.createElement("a");
     b2.classList.add("fa")
     b2.classList.add("fa-twitter")
     a2.appendChild(b2)
-    div.appendChild(a2);
+    div.appendChild(a2).href="";;
     let b3 = document.createElement("i");
     let a3 = document.createElement("a");
     b3.classList.add("fa")
     b3.classList.add("fa-linkedin")
     a3.appendChild(b3)
-    div.appendChild(a3);
+    div.appendChild(a3).href="";;
     let b4 = document.createElement("i");
     let a4 = document.createElement("a");
     b4.classList.add("fa")
     b4.classList.add("fa-facebook")
     a4.appendChild(b4)
-    div.appendChild(a4);
+    div.appendChild(a4).href="";;
     //console.log(myjson.results[i].name.first)
     let people = document.getElementById("people")
     people.appendChild(div)
