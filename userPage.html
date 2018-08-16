@@ -1,40 +1,58 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
+
 <head>
     <link rel="stylesheet" href="userPage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="aboutUs.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Logged In</title>
 </head>
+
 <body>
     <h1 id="Welcome">(Beta)</h1>
-    <a href = "website.html" class="button2">Back</a>
+    <a href="website.html" class="button2">Back</a>
 
 
     <h2 style="text-align:center"></h2>
-<div id="row">
-<div class="card">
-  <div class="crop">
-  <img src="" alt="" style="width:100%">
-</div>
-  <h1></h1>
-  <p class="title"></p>
-  <p></p>
-  <div style="margin: 24px 0;">
-    <a href=""><i class="fa fa-snapchat"></i></a> 
-    <a href=""><i class="fa fa-twitter"></i></a>  
-    <a href=""><i class="fa fa-linkedin"></i></a>  
-    <a href=""><i class="fa fa-facebook"></i></a> 
-    <a href=""><i class="fa fa-instagram"></i></a>  
- </div>
- <button onclick="document.getElementById('id03').style.display='block'">Add To Profile</button>
- <!-- The Modal -->
- <div id="id01" class="modal">
-     <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
-     <form>
+    <div id="row">
+        <div class="card">
+            <div class="crop">
+                <img src="download.jpg" alt="" style="width:100%">
+                <input type="button" id="get_file" value="Grab file">
+                <input type="file" id="my_file">
+                <div id="customfileupload">Select a file</div>
+            </div>
+            <h1></h1>
+            <p class="title"></p>
+            <p id="Name"></p>
+            <div style="margin: 24px 0;">
+                <a href="">
+                    <i class="fa fa-snapchat"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <button onclick="document.getElementById('id03').style.display='block'">Add To Profile</button>
+            <!-- The Modal -->
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form>
 
-     </form>
-</div>
+                </form>
+            </div>
 
- <p><button>Contact</button></p>
-</div>
+            <p>
+                <button>Contact</button>
+            </p>
+        </div>
